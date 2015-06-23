@@ -13,7 +13,8 @@ $ node index.js
 ```
 
 Express is being used which should render `static/index.html` by default since
-no route is mentioned nor any other template is being rendered at `/`.
+no route is mentioned nor any other template is being rendered at `/`. Once the
+server is running, go to [http://localhost:4000](http://localhost:4000).
 
 ## Re-building bundle.js
 
