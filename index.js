@@ -7,14 +7,12 @@ injectTapEventPlugin();
 
 import App from './components/App';
 import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import Servers from './components/Servers';
 
 const AppRoutes = (
   <Route path="/" handler={App}>
     <DefaultRoute handler={Home} />
-    <Route name="about" handler={About} />
-    <Route name="contact" handler={Contact} />
+    <Route path="/servers" handler={Servers} />
   </Route>
 );
 
